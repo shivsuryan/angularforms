@@ -29,5 +29,6 @@ export class AppComponent {
     this.user.secretQuestion = this.form.value.secret;
     this.user.answer = this.form.value.textArea;
     console.log(this.user);
+    this.form.reset();
   }
 }
